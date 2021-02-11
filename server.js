@@ -2,7 +2,7 @@ const { driver } = require('@rocket.chat/sdk');
 const { api } = require('@rocket.chat/sdk');
 const respmap  = require('./reply');
 const elevatedUserMap  = require('./users');
-const request = require('request');
+const request = require('postman-request');
 const http = require('http');
 
 
